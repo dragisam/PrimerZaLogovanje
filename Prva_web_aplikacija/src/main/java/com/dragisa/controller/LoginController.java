@@ -88,7 +88,7 @@ public class LoginController  {
 			String ime=(student2.getName());*/
 			ModelAndView model=new ModelAndView("success");
 			 
-			model.addObject("message","welcome in mvc");
+			model.addObject("message","welcome u mvc");
 			return model;
 		} else {
 			ModelAndView model=new ModelAndView("index");
